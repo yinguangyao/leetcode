@@ -11,6 +11,12 @@
         输入: "cbbd"
         输出: "bb"
 */
+/* 
+    解题思路：
+        如果一个子串是回文，那么除去两头的字符得到的子串依然是回文。
+        因此，这里我们用二维数组来保存回文信息。
+        如果arr[i][j]是个回文字符串，那么arr[i+1][j-1]依然是个回文字符串，这个时候只需要判断s[i] === s[j]
+*/
 const longestPalindrome = function (s: string) : string {
     let len = s.length,
         arr: boolean[][] = Array(len).fill(false).map(item => Array(len).fill(false)),

@@ -10,6 +10,10 @@
         因为 nums[0] + nums[1] = 2 + 7 = 9
         所以返回 [0, 1]
 */
+/* 
+    解题思路：
+        使用Map来保存数组中的数字，并用总和减去其中某一个数，判断map中是否有值和余下的值相等
+*/
 const twoSum = (nums: number[], target: number) : number[] | undefined => {
     const map = new Map;
     for(let i = 0; i < nums.length; i++) {

@@ -11,12 +11,17 @@
         [-1, -1, 2]
     ]
 */
-
+/* 
+    解题思路：
+        首先应该将其按照从小到大的顺序进行排列，然后遍历数组，将当前遍历项置为A。
+        再用两根指针left和right从两头往中间移动，计算三者之和。
+        如果之和大于0，那么说明right应该继续前进（减小），反之left应该继续前进（增加）
+*/
 /**
  * @param {number[]} nums
  * @return {number[][]}
  */
-var threeSum = function(nums: number[]): number[][] {
+const threeSum = function(nums: number[]): number[][] {
     if (nums.length < 3) {
         return [];
     }
