@@ -30,3 +30,6 @@
 
 ## 链表
 ### 链表反转
+[reverseList](https://github.com/yinguangyao/leetcode/tree/master/list/reverseList.ts)
+### 链表有否有环
+[hasCycle](https://github.com/yinguangyao/leetcode/tree/master/list/hasCycle.ts)
