@@ -12,6 +12,7 @@
 ### 有效的括号 
 [isValid](https://github.com/yinguangyao/leetcode/tree/master/arrayAndString/isValid.ts)
 
+
 ## 动态规划
 ### 上台阶
 [isValid](https://github.com/yinguangyao/leetcode/tree/master/dp/climbStairs.ts)
@@ -19,3 +20,13 @@
 [maxSubArray](https://github.com/yinguangyao/leetcode/tree/master/dp/maxSubArray.ts)
 ### 买卖股票的最佳时机
 [maxProfit](https://github.com/yinguangyao/leetcode/tree/master/dp/maxProfit.ts)
+### 买卖股票的最佳时机2
+[maxProfit2](https://github.com/yinguangyao/leetcode/tree/master/dp/maxProfit2.ts)
+### 不同路径
+[uniquePaths](https://github.com/yinguangyao/leetcode/tree/master/dp/uniquePaths.ts)
+### 子集
+[subsets](https://github.com/yinguangyao/leetcode/tree/master/dp/subsets.ts)
+
+
+## 链表
+### 链表反转
