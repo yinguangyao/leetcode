@@ -24,7 +24,7 @@
 
 */
 
-var maxProfit = function(prices: number[]): number {
+const maxProfit = function(prices: number[]): number {
     let len = prices.length,
         min = prices[0],
         profit = 0;

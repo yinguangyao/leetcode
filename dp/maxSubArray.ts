@@ -23,7 +23,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maxSubArraySimple = function(nums: number[]): number {
+const maxSubArraySimple = function(nums: number[]): number {
     let len = nums.length,
         max = -Number.MAX_SAFE_INTEGER;
     for (let i = 0; i < len; i++) {
@@ -38,7 +38,7 @@ var maxSubArraySimple = function(nums: number[]): number {
     return max;
 };
 
-var maxSubArray = function(nums: number[]): number {
+const maxSubArray = function(nums: number[]): number {
     let len = nums.length, arr = [];
     arr[0] = nums[0];
     for (let i = 1; i < len; i++) {
